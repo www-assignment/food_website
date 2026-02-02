@@ -2919,4 +2919,4 @@ function initializeAll() {
     setupGlobalListeners();
     
     console.log('✅ Premium website fully loaded');
-}s
+}
