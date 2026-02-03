@@ -5200,4 +5200,73 @@ a {
     0%, 100% { transform: translateX(0); }
     10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
     20%, 40%, 60%, 80% { transform: translateX(5px); }
+
+}
+
+
+
+/* ===== MOBILE NAVIGATION COLOR OVERRIDES WITH !important ===== */
+
+@media (max-width: 992px) {
+    /* Mobile Toggle Button - Add !important to hamburger icon color */
+    .mobile-toggle i {
+        color: white !important;
+    }
+    
+    /* Navigation Links - Add !important to text colors */
+    .nav-link {
+        color: var(--primary-charcoal) !important;
+    }
+    
+    .nav-link:hover,
+    .nav-link.active {
+        color: var(--primary-fire) !important;
+    }
+    
+    .nav-link i {
+        color: var(--primary-fire) !important;
+    }
+    
+    /* Navigation Buttons - Add !important to text colors */
+    .nav-admin-btn {
+        color: var(--primary-dark) !important;
+    }
+    
+    .nav-admin-btn i {
+        color: var(--primary-dark) !important;
+    }
+    
+    .nav-user {
+        color: var(--primary-charcoal) !important;
+    }
+    
+    .user-avatar i {
+        color: white !important;
+    }
+    
+    .nav-cta {
+        color: white !important;
+    }
+    
+    .nav-cta i,
+    .nav-cta span {
+        color: white !important;
+    }
+    
+    .cart-counter {
+        color: white !important;
+    }
+}
+
+/* Hamburger icon color overrides */
+.mobile-toggle i {
+    color: white !important;
+}
+
+.mobile-toggle.active i {
+    color: var(--primary-gold) !important;
+}
+
+.mobile-toggle:hover i {
+    color: white !important;
 }
